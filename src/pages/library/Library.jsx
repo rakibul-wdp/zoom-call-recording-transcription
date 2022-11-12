@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import Navbar from '../../components/Navbar/Navbar'
+import Navbar from '../../components/navbar/Navbar'
 import './library.css'
 import shape from '../../assets/shape.png'
 import folder from '../../assets/folder.png'

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import moment from 'moment';
 import Wavesurfer from 'react-wavesurfer.js';
-import Navbar from '../../components/Navbar/Navbar'
+import Navbar from '../../components/navbar/Navbar'
 import next from '../../assets/next.png'
 import nextw from '../../assets/nextw.png'
 import plus from '../../assets/plus.png'
@@ -57,7 +57,7 @@ const Recording = () => {
     })
   }
 
-  const handlePlayback = (e) =>{
+  const handlePlayback = (e) => {
     setStates({
       ...states,
       playbackSpeed: e
@@ -71,7 +71,7 @@ const Recording = () => {
     })
   }
 
-  
+
   const handleProgress = state => {
     // console.log(state)
     console.log(wave.current)
@@ -96,16 +96,16 @@ const Recording = () => {
     setTags([...tags, value])
     e.target.value = ''
   }
-  
-  
+
+
   function removeTag(index) {
     setTags(tags.filter((el, i) => i !== index))
   }
-  
+
   const { playing, playedSeconds, duration, playbackSpeed, loaded, played } = states
-  
-  
-  
+
+
+
   const formatDate = moment().format('LL')
   const player = useRef();
   const wave = useRef();
@@ -244,21 +244,25 @@ const Recording = () => {
                       url='demo.mp4'
                       controls
                       width='100%'
-                      muted 
+                      muted
                       height='100%'
                       playing={playing}
-                      onPlay = {()=>{setStates({
-                        ...states,
-                        playing:true
-                      })}}
-                      onSeek = {(e)=>{
+                      onPlay={() => {
+                        setStates({
+                          ...states,
+                          playing: true
+                        })
+                      }}
+                      onSeek={(e) => {
                         wave.current.seekTo(e)
                       }}
-                      onPause = {()=>{setStates({
-                        ...states,
-                        playing:false
-                      })}}
-                      onPlaybackRateChange = {handlePlayback}
+                      onPause={() => {
+                        setStates({
+                          ...states,
+                          playing: false
+                        })
+                      }}
+                      onPlaybackRateChange={handlePlayback}
                       onDuration={handleDuration}
                       onEnded={handleEnd}
                       onProgress={handleProgress}
@@ -326,16 +330,16 @@ const Recording = () => {
               <Wavesurfer
                 src="demo.mp4"
                 playing={playing}
-                barWidth = {4}
-                barHeight = {1}
-                audioRate = {playbackSpeed}
-                ref = {wave}
-                interact = {false}
-                backend = 'MediaElement'
-                waveColor = "#3F51B5"
+                barWidth={4}
+                barHeight={1}
+                audioRate={playbackSpeed}
+                ref={wave}
+                interact={false}
+                backend='MediaElement'
+                waveColor="#3F51B5"
                 progressColor='#3F51B5'
-                responsive = {true}
-            />
+                responsive={true}
+              />
             </div>
             <Chat />
           </div>

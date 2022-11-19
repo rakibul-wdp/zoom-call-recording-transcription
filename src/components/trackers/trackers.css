@@ -1,0 +1,157 @@
+.trackersWrapper {
+    display: flex;
+    width: 100%;
+    gap: 65px;
+    justify-content: center;
+    margin-top: 30px;
+    font-style: lato;
+}
+
+.trackersWrapperPart1 {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    justify-content: space-around;
+    gap: 30px;
+    margin-left: 40px;
+}
+
+.trackers1Header {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.trackers1HeaderSub {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.trackers1Body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.trackers1BodyPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 150px;
+    background: #E5EFFF;
+    border-radius: 15px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    padding: 10px;
+    position: relative;
+}
+
+.bodyPartPie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E5EFFF;
+}
+
+.trackersWrapperPart2 {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    gap: 20px;
+    border: 1px solid #D9D9D9;
+}
+
+.trackers2Header {
+    display: flex;
+    background: #3F51B5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 10px 10px 5px 10px;
+}
+
+.trackers2HeaderHeading {
+    width: 100%;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+.trackers2Body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.trackers2BodyImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trackers2BodyDetails {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-left: 30px;
+    gap: 10px;
+}
+
+.trackers2BodyDetail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.trackers2BodyLine {
+    width: 100%;
+    height: 1px;
+    background: black;
+}
+
+.trackers2BodyCalls {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.trackers2BodyCallsHead {
+    display: flex;
+    flex-direction: column;
+}
+
+.trackers2BodyCallsHeader {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.trackers2BodyCallsSub {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.trackers2BodyMore {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(131, 130, 130, 0.95);
+    cursor: pointer;
+}
+
+.percent{
+    position: absolute;
+    top: 50%;
+}

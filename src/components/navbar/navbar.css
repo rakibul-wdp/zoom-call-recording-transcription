@@ -1,0 +1,138 @@
+.navbarContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3F51B5;
+    height: 50px;
+    font-family: 'Lato';
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+
+.navLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLinks{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-top: 25px;
+}
+.navLinks a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.navLinks li :hover{
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+}
+
+.navLinks .active{
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+}
+.navlinks{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+    margin-top: 25px;
+}
+.navlinks a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.navlinks li :hover{
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+}
+
+.navlinks .active{
+    border-bottom: 3px solid;
+    padding-bottom: 5px;
+}
+
+.navSearch{
+    display: flex;
+    width: 230px;
+    height: 30px;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.navSearch input{
+    border: none;
+    width: 80%;
+    outline: none;
+    background-color: #3F51B5;
+    color: white;
+    font-weight: 300;
+    font-family: 'Lato';
+}
+
+.navSearch img{
+    cursor: pointer;
+}
+
+.navInput::placeholder{
+    color: white;
+}
+
+.navSmall{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 85%;
+    height: 100vh;
+    background: #3F51B5;
+    color: white;
+    transition: 0.5s ease;
+    flex-direction: column;
+    z-index: 5;
+}
+
+.navHelp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.navSmallScreen{
+    display: none;
+}
+
+
+@media only screen and (max-width: 650px) {
+    .navbarContainer{
+        justify-content: space-between;
+    }
+    .navLogo img{
+        width : 80%
+    }
+    .navSmallScreen{
+        display: flex;
+        padding-right: 20px;
+    }
+    .navSearch, .navHelp{
+        display: none;
+    }
+    .navLinks{
+        display: none;  
+    }
+    .navSmall img{
+        position: absolute;
+        right: 0;
+    }
+}

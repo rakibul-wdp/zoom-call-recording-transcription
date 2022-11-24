@@ -1,0 +1,115 @@
+.interactionWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.interactionWrapperHead {
+    display: flex;
+    width: 100%;
+    gap: 1px;
+}
+
+.interactionWrapperHeadName {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 20px;
+    height: 150px;
+    justify-content: center;
+    padding-left: 30px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    background: #E5EFFF;
+    border-radius: 10px 50px 0px 0px;
+    border-bottom: 2px solid #000000;
+    cursor: pointer;
+}
+
+.changei {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 150px;  
+    gap: 20px;
+    justify-content: center;
+    padding-left: 30px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    background: white;
+    font-size: 24px;
+    border-radius: 10px 50px 0px 0px;
+    border-top: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+}
+
+.interactionWrapperCallDuration {
+    display: flex;
+    flex-direction: column;
+}
+
+.talkRatioInfo {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.talkRatioInfoHead {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.talkRatioInfoSub {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.talkRatioGraph {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 30px;
+}
+
+.graphLabel {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.barGraph{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+.graph{
+    display: flex;
+    width: 900px;
+    gap :20px;
+    align-content: center;
+}
+
+.graphData{
+    background: #3F51B5;
+    border-radius: 20px;
+    height: 15px;
+}

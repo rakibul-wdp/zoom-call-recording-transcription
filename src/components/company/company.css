@@ -1,0 +1,208 @@
+.companyWrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.companySideBar {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    gap: 20px;
+}
+
+.sideBar1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sideBar1Head {
+    display: flex;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.sideBar1Body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 10px;
+}
+
+.sideBar2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px 1px 1px 0px solid #E5EFFF;
+    box-shadow: 0px 4px 11px rgba(63, 81, 181, 0.25);
+}
+
+.sideBar2Head {
+    background: #3F51B5;
+    color: white;
+    padding: 10px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.sideBar2Body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-height: 400px;
+    gap: 10px;
+    overflow: auto;
+}
+
+.sideBarSearch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(131, 130, 130, 0.95);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.sideBarSearch input {
+    border: none;
+    outline: none;
+}
+
+.sideBarCard {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-shadow: 0px 4px 4px rgba(63, 81, 181, 0.25);
+    border-radius: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-right: 5px;
+    font-weight: 700;
+}
+
+.companyRightBar {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.rightBar1 {
+    display: flex;
+    flex-direction: column;
+    background: #F4F8FF;
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lineTime {
+    width: 1px;
+    height: 8px;
+    background: black;
+}
+
+.time1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.iconBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 15px 10px;
+    border-radius: 20px;
+}
+
+.nextBox{
+    display: flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nextAbsol{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.rightBar2 {
+    display: flex;
+    /* width: 100%; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightbar{
+    display: flex;
+    width: 100%;
+}
+
+.rightbar__main{
+    display: flex;
+    width: inherit;
+    padding: 30px;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.rightbar__main1{
+    display: flex;  
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #D1E3FF;
+    justify-content: space-between;
+}
+
+.rightbar__main11{
+    display: flex;
+    gap: 10px;
+}
+
+.rightbar__main12{
+    display: flex;
+    gap: 10px;
+}

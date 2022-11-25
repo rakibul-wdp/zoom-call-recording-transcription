@@ -1,0 +1,27 @@
+.headerWrapper{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    justify-content: space-around;
+    background-color: rgb(238, 238, 233);
+    align-items: center;
+}
+
+.topics{
+    display: flex;
+    gap: 40px;
+}
+
+.topic{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: inset 0px 3px 5px rgb(190, 190, 190);
+    cursor: pointer;
+}
+
+.date{
+    font-weight: 600;
+}

@@ -1,0 +1,93 @@
+.coachingWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    font-family: 'lato';
+}
+
+.coachingWrapperHeader {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.coachingWrapperBody{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+
+.coachingWrapperDiv{
+    display: flex;
+    width: 350px;
+    height: 242px;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(103.79deg, #F9FBFF 4.45%, #CADDFB 97.69%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.DivTitle{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.DivLine{
+    width: 100%;
+    height: 1px;
+    background: black;
+}
+
+.DivFeedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 80px;
+}
+
+.DivFeedbackHead{
+    display: flex;
+    gap: 30px;
+}
+
+.DivFeedbackInfo{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.DivFeedbackInfoLines{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+}
+
+.msgimg{
+    display: flex;
+    gap: 30px;
+}
+
+.DivFooter{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.coachingLine{
+    width: 1px;
+    height: 100%;
+    background: black;
+}

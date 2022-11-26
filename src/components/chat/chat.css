@@ -1,0 +1,128 @@
+.chatContainer {
+    display: flex;
+    flex: 1;
+    max-width: 282px;
+    height: 800px;
+    flex-direction: column;
+    border-left: 2px solid rgb(232, 232, 232);
+
+}
+
+.chatHeading {
+    width: 100%;
+    height: 40px;
+    background: #3F51B5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chatHeading p {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.chatSearch {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+    border: 1px solid black;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.chatSearch img {
+    cursor: pointer;
+}
+
+.chatSearch input {
+    margin-right: 30px;
+    outline: none;
+    border: none;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    max-height: 452px;
+    overflow-y: auto;
+}
+
+.reciever {
+    display: flex;
+    margin-left: 10px;
+    width: 70%;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.recieverText {
+    background: #E5EFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 15px 15px 0px;
+    padding: 0px 5px;
+
+}
+
+.senderText {
+    background: #E5EFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 15px 15px 0px;
+    padding: 0px 5px;
+
+}
+
+.sender {
+    display: flex;
+    margin-left: 79px;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+    width: 70%;
+}
+
+.message {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    background-color: #E5EFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.message textarea {
+    width: 80%;
+    margin-top: 20px;
+    height: 170px;
+    background: #FFFFFF;
+    border: 1px solid #3F51B5;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    resize: none;
+}
+
+.button1 {
+    width: 70px;
+    height: 25px;
+    margin-left: 210px;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    color: white;
+    background: #E63946;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}

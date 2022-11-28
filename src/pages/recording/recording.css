@@ -1,0 +1,477 @@
+.recordingWrapper {
+    width: 100%;
+    height: 100%;
+    max-height: 692px;
+    font-family: lato;
+    display: flex;
+}
+
+.headerWrapper {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    background-color: #E5EFFF;
+    align-items: center;
+}
+
+.topics {
+    display: flex;
+    gap: 40px;
+}
+
+.topic {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: max-content;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.topic p {
+    margin: 12px;
+}
+
+.date {
+    font-weight: 600;
+}
+
+
+.playerWrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.playerWrapper2 {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.transcriptApp {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.Player2 {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.twoicons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    left: 800px;
+    top: 772px;
+}
+
+.first {
+    width: max-content;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    padding: 0px 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 9px rgba(63, 81, 181, 0.25);
+    cursor: pointer;
+}
+
+.recording {
+    margin-top: 40px;
+    width: 100%;
+    height: 70px;
+    max-width: 980px;
+    display: flex;
+    background-color: #333333;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.part1 {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    margin-left: 5px;
+    gap: 10px;
+    color: white;
+}
+
+.divider {
+    width: 1px;
+    height: auto;
+    background-color: rgb(201, 198, 198);
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    flex: 10;
+    gap: 10px;
+    color: white
+}
+
+.upper {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: #E5EFFF;
+    cursor: pointer;
+    box-shadow: inset 0px 1px 5px 1px rgba(63, 81, 181, 0.5);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+
+}
+
+.activeOne {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #FFFFFF;
+    background: #3F51B5;
+    box-shadow: inset 0px 1px 5px 1px rgba(51, 51, 51, 0.5);
+    border-radius: 15px;
+}
+
+.share {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.58);
+    z-index: 1000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shareBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.shareHeader {
+    display: flex;
+    background: #3F51B5;
+    color: #FFFFFF;
+    align-items: center;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+    width: 350px;
+}
+
+.shareHead {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addMessage {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.messageContainer {
+    border: 2px solid #E5EFFF;
+    border-radius: 3px;
+    height: 50px;
+    padding: 0px 5px;
+}
+
+.messageContainer textarea {
+    outline: none;
+    border: none;
+    resize: none;
+    width: 100%;
+    height: 90%;
+}
+
+.shareBody {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.tagBody {
+    display: flex;
+    gap: 20px;
+}
+
+.tagPlacer {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tagItem {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border: 2px solid #E5EFFF;
+    border-radius: 3px;
+}
+
+.tagItem img {
+    cursor: pointer;
+}
+
+.tagInputConrainer {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 2px solid #E5EFFF;
+    border-radius: 3px;
+    gap: 10px;
+    padding: 2px 5px;
+}
+
+.tagInputConrainer input {
+    border: none;
+    outline: none;
+
+}
+
+.trimContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.trimHeader {
+    display: flex;
+    width: 100%;
+}
+
+.trimHead {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.trimFilter {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.trimType {
+    color: #3F51B5;
+}
+
+.trimTime {
+    border: 1px solid #E5EFFF;
+    padding: 0px 2px;
+}
+
+.trimBody {
+    display: flex;
+    border: 2px solid #E5EFFF;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.shareFooter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.shareFooterPart1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer1Button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    background: #3F51B5;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    box-shadow: 0px 2px 9px rgba(51, 51, 51, 0.25);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer1Link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.shareFooterPart2 {
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.shareableNumber {
+    border: 1px solid #E5EFFF;
+    border-radius: 2px;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.shareable {
+    color: #3F51B5;
+}
+
+.shareClose {
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lower {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-left: 30px; */
+    color: white;
+}
+
+.controllers {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.length {
+    width: 80%;
+    height: 5px;
+    background-color: rgb(201, 198, 198);
+    cursor: pointer;
+    position: relative;
+}
+
+.loader {
+    display: flex;
+    width: 60%;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.part3 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* position: relative; */
+}
+
+.previous,
+.next,
+.play {
+    cursor: pointer;
+}
+
+.speed {
+    display: flex;
+    width: 40px;
+    height: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 15px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ok {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.option {
+    cursor: pointer;
+}
+
+.option1 {
+    padding-left: 8px;
+}
+
+.repsStats {
+    display: flex;
+    margin-top: 40px;
+    max-width: max-content;
+    background-color: rgb(157, 155, 155);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: inset 1px 3px 3px rgb(107, 107, 107);
+}
+
+.repsStatsName {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}

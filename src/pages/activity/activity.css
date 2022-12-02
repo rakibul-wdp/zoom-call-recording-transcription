@@ -1,0 +1,121 @@
+.activityApp {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.activityAppWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.activityAppWrapperHeader {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.activityAppWrapperHeading {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: 450;
+}
+
+.activityDay{
+    border: 1px solid #3F51B5;
+    padding: 2px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.activitySearch{
+    display: flex;
+    align-items: center;
+    border: 1px solid #3F51B5;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.activitySearch > input{
+    border: none;
+    outline: none;
+}
+
+.activitySearch > img{
+    cursor: pointer;
+}
+
+.activityAppWrapperDate {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.activityAppWrapperBody {
+    display: flex;
+    gap: 30px;
+}
+
+.activityAppWrapperBodyPart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 43px;
+}
+
+.InnerPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5EFFF;
+    border: 1px solid #3F51B5;
+    padding: 0px 3px;
+}
+
+.activityAppWrapperBodyPart1 {
+    display: flex;
+    width: 200px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    background: #FFFFFF;
+    border: 1px solid #3F51B5;
+    box-shadow: 0px 4px 8px rgba(63, 81, 181, 0.25);
+    border-radius: 15px;
+}
+
+.activityAppWrapperBodyPart12{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bodyPart12 {
+    display: flex;
+    width: 1000px;
+    height: 80px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border: 1px solid #CCCCCC;
+    justify-content: space-evenly;
+}
+
+.activityAppWrapperBodyPart2 {
+    width: 25%;
+    border-right: 1px solid #CCCCCC;   
+    padding: 10px 20px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
